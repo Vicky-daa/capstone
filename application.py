@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request,session
 import predict as pd
 import sys
-from werkzeug.datastructures import FileStorage
 import boto3
 import key_config as keys
 
@@ -129,5 +128,5 @@ def predict():
 
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
